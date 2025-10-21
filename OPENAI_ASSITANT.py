@@ -33,7 +33,7 @@ client = OpenAI(api_key = OPEN_AI_KEY)
 
 
 file = client.files.create(
-    file=open(r"C:\Users\HP\Desktop\CATO CURSOS-1-2024\GER-TI CATO1-2024\Libros\Disenando-la-propuesta-de-valor-Alexander-Osterwalder-Yves-Pig.pdf","rb"),
+    file=open(r"C:\Users\HP\Desktop\CATO CURSOS-1-2024\GER-TI CATO1-2024\Libros\XXXXXXXXX.pdf","rb"),
     purpose = "assistants"
 )
 
